@@ -1,0 +1,2 @@
+city_highest_avg_pm2_5,city_highest_avg_severity,risk_distribution_global,worst_hour_by_avg_pm2_5
+"{'city': 'Delhi', 'avg_pm2_5': np.float64(124.3105504587156)}",,"{'High Risk': {'count': 0, 'percentage': 0.0}, 'Moderate Risk': {'count': 0, 'percentage': 0.0}, 'Low Risk': {'count': 0, 'percentage': 0.0}}","{'hour': 2, 'avg_pm2_5': np.float64(88.82700000000001)}"

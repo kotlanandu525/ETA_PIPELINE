@@ -1,0 +1,38 @@
+2025-12-11 11:42:08,274 INFO: Starting AtmosTrack Open-Meteo Air Quality extract
+2025-12-11 11:42:08,274 INFO: Cities: Delhi, Mumbai, Bengaluru, Hyderabad, Kolkata
+2025-12-11 11:42:08,275 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Delhi (attempt 1/3) params={'latitude': 28.7041, 'longitude': 77.1025, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 11:42:09,113 INFO: ✅ [Delhi] saved raw response -> C:\LIVE-DELIVERY\data\raw\delhi_raw_20251211T061209Z.json
+2025-12-11 11:42:09,618 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Mumbai (attempt 1/3) params={'latitude': 19.076, 'longitude': 72.8777, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 11:42:10,386 INFO: ✅ [Mumbai] saved raw response -> C:\LIVE-DELIVERY\data\raw\mumbai_raw_20251211T061210Z.json
+2025-12-11 11:42:10,888 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Bengaluru (attempt 1/3) params={'latitude': 12.9716, 'longitude': 77.5946, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 11:42:11,656 INFO: ✅ [Bengaluru] saved raw response -> C:\LIVE-DELIVERY\data\raw\bengaluru_raw_20251211T061211Z.json
+2025-12-11 11:42:12,157 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Hyderabad (attempt 1/3) params={'latitude': 17.385, 'longitude': 78.4867, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 11:42:12,933 INFO: ✅ [Hyderabad] saved raw response -> C:\LIVE-DELIVERY\data\raw\hyderabad_raw_20251211T061212Z.json
+2025-12-11 11:42:13,436 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Kolkata (attempt 1/3) params={'latitude': 22.5726, 'longitude': 88.3639, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 11:42:14,233 INFO: ✅ [Kolkata] saved raw response -> C:\LIVE-DELIVERY\data\raw\kolkata_raw_20251211T061214Z.json
+2025-12-11 11:42:14,735 INFO: Extraction finished — summary:
+2025-12-11 11:42:14,735 INFO:  - Delhi: saved -> C:\LIVE-DELIVERY\data\raw\delhi_raw_20251211T061209Z.json
+2025-12-11 11:42:14,736 INFO:  - Mumbai: saved -> C:\LIVE-DELIVERY\data\raw\mumbai_raw_20251211T061210Z.json
+2025-12-11 11:42:14,737 INFO:  - Bengaluru: saved -> C:\LIVE-DELIVERY\data\raw\bengaluru_raw_20251211T061211Z.json
+2025-12-11 11:42:14,737 INFO:  - Hyderabad: saved -> C:\LIVE-DELIVERY\data\raw\hyderabad_raw_20251211T061212Z.json
+2025-12-11 11:42:14,738 INFO:  - Kolkata: saved -> C:\LIVE-DELIVERY\data\raw\kolkata_raw_20251211T061214Z.json
+2025-12-11 13:53:01,013 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Delhi (attempt 1/3) params={'latitude': 28.7041, 'longitude': 77.1025, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:53:01,850 INFO: ✅ [Delhi] saved raw response -> C:\LIVE-DELIVERY\data\raw\delhi_raw_20251211T082301Z.json
+2025-12-11 13:53:02,352 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Mumbai (attempt 1/3) params={'latitude': 19.076, 'longitude': 72.8777, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:53:03,132 INFO: ✅ [Mumbai] saved raw response -> C:\LIVE-DELIVERY\data\raw\mumbai_raw_20251211T082303Z.json
+2025-12-11 13:53:03,635 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Bengaluru (attempt 1/3) params={'latitude': 12.9716, 'longitude': 77.5946, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:53:04,426 INFO: ✅ [Bengaluru] saved raw response -> C:\LIVE-DELIVERY\data\raw\bengaluru_raw_20251211T082304Z.json
+2025-12-11 13:53:04,929 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Hyderabad (attempt 1/3) params={'latitude': 17.385, 'longitude': 78.4867, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:53:05,710 INFO: ✅ [Hyderabad] saved raw response -> C:\LIVE-DELIVERY\data\raw\hyderabad_raw_20251211T082305Z.json
+2025-12-11 13:53:06,212 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Kolkata (attempt 1/3) params={'latitude': 22.5726, 'longitude': 88.3639, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:53:07,040 INFO: ✅ [Kolkata] saved raw response -> C:\LIVE-DELIVERY\data\raw\kolkata_raw_20251211T082307Z.json
+2025-12-11 13:54:02,909 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Delhi (attempt 1/3) params={'latitude': 28.7041, 'longitude': 77.1025, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:54:03,686 INFO: ✅ [Delhi] saved raw response -> C:\LIVE-DELIVERY\data\raw\delhi_raw_20251211T082403Z.json
+2025-12-11 13:54:04,190 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Mumbai (attempt 1/3) params={'latitude': 19.076, 'longitude': 72.8777, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:54:05,099 INFO: ✅ [Mumbai] saved raw response -> C:\LIVE-DELIVERY\data\raw\mumbai_raw_20251211T082405Z.json
+2025-12-11 13:54:05,601 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Bengaluru (attempt 1/3) params={'latitude': 12.9716, 'longitude': 77.5946, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:54:06,428 INFO: ✅ [Bengaluru] saved raw response -> C:\LIVE-DELIVERY\data\raw\bengaluru_raw_20251211T082406Z.json
+2025-12-11 13:54:06,931 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Hyderabad (attempt 1/3) params={'latitude': 17.385, 'longitude': 78.4867, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:54:07,725 INFO: ✅ [Hyderabad] saved raw response -> C:\LIVE-DELIVERY\data\raw\hyderabad_raw_20251211T082407Z.json
+2025-12-11 13:54:08,227 INFO: Requesting https://air-quality-api.open-meteo.com/v1/air-quality for Kolkata (attempt 1/3) params={'latitude': 22.5726, 'longitude': 88.3639, 'hourly': 'pm10,pm2_5,carbon_monoxide,nitrogen_dioxide,ozone,sulphur_dioxide,uv_index'}
+2025-12-11 13:54:09,066 INFO: ✅ [Kolkata] saved raw response -> C:\LIVE-DELIVERY\data\raw\kolkata_raw_20251211T082409Z.json
